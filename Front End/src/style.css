@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Nunito:wght@400&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Infant&display=swap');
+
+body {
+  background-color: #bdea90;
+}
+
+* {
+  font-family: 'nunito';
+}
+
+heading {
+  font-family: 'ubuntu';
+  font-size: large;
+  font-weight: bolder;
+}
+
+.heading{
+  font-family: 'Ysabeau Infant', sans-serif;
+}
+.bodyText{
+  color: #a6b497;
+
+}
+.nav-link {
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: orange;
+}
+
+.nav-link.active {
+  color: orange;
+}
